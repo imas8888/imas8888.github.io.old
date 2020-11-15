@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/imas8888.github.io/static/css/main.d82c793f.chunk.css",
+    "main.js": "/imas8888.github.io/static/js/main.cb29e2b5.chunk.js",
+    "main.js.map": "/imas8888.github.io/static/js/main.cb29e2b5.chunk.js.map",
+    "runtime-main.js": "/imas8888.github.io/static/js/runtime-main.27165ab7.js",
+    "runtime-main.js.map": "/imas8888.github.io/static/js/runtime-main.27165ab7.js.map",
+    "static/js/2.f4a03628.chunk.js": "/imas8888.github.io/static/js/2.f4a03628.chunk.js",
+    "static/js/2.f4a03628.chunk.js.map": "/imas8888.github.io/static/js/2.f4a03628.chunk.js.map",
+    "static/js/3.15b21310.chunk.js": "/imas8888.github.io/static/js/3.15b21310.chunk.js",
+    "static/js/3.15b21310.chunk.js.map": "/imas8888.github.io/static/js/3.15b21310.chunk.js.map",
+    "index.html": "/imas8888.github.io/index.html",
+    "static/css/main.d82c793f.chunk.css.map": "/imas8888.github.io/static/css/main.d82c793f.chunk.css.map",
+    "static/js/2.f4a03628.chunk.js.LICENSE.txt": "/imas8888.github.io/static/js/2.f4a03628.chunk.js.LICENSE.txt",
+    "static/media/Black-Background-Picture.37690f95.png": "/imas8888.github.io/static/media/Black-Background-Picture.37690f95.png",
+    "static/media/EducationPage.9db7de9c.jpg": "/imas8888.github.io/static/media/EducationPage.9db7de9c.jpg",
+    "static/media/bg2.cf07edf7.jpg": "/imas8888.github.io/static/media/bg2.cf07edf7.jpg",
+    "static/media/logo.103b5fa1.svg": "/imas8888.github.io/static/media/logo.103b5fa1.svg",
+    "static/media/name.0e1ab895.png": "/imas8888.github.io/static/media/name.0e1ab895.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27165ab7.js",
+    "static/js/2.f4a03628.chunk.js",
+    "static/css/main.d82c793f.chunk.css",
+    "static/js/main.cb29e2b5.chunk.js"
+  ]
+}
