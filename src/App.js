@@ -73,7 +73,7 @@ function App() {
           </Parallax>
 
           <Parallax bgImage={bg3} strength={500}>
-              <div style={{ height: window.innerHeight, width: window.innerWidth }} ref={Ref1}>
+              <div style={{ height: window.innerHeight, width: window.innerWidth }}>
                   <h1 style={{
                       color: '#fff',
                       left: '50%',
