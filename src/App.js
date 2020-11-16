@@ -77,11 +77,41 @@ function App() {
                   <h1 style={{
                       color: '#fff',
                       left: '50%',
-                      top: '10%',
+                      top: '5%',
                       position: 'absolute',
                       transform: 'translate(-50%, -50%)',
                       fontSize: '40px'
                   }}>Education</h1>
+                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth }}>
+                      <h1 style={{
+                          color: '#fff',
+                          left: '50%',
+                          top: '10%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)',
+                          fontSize: '40px'
+                      }}>Education</h1>
+                  </div>
+                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth }}>
+                      <h1 style={{
+                          color: '#fff',
+                          left: '50%',
+                          top: '40%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)',
+                          fontSize: '40px'
+                      }}>Education</h1>
+                  </div>
+                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth }}>
+                      <h1 style={{
+                          color: '#fff',
+                          left: '50%',
+                          top: '70%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)',
+                          fontSize: '40px'
+                      }}>Education</h1>
+                  </div>
               </div>
           </Parallax>
 
