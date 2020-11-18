@@ -2,11 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useRef } from 'react';
 import { Parallax } from 'react-parallax';
+import Tilt from 'react-tilt';
 import nameImage from './name.png';
 import menuImage from './menu.png';
 import backg from './Black-Background-Picture.png';
 import bg2 from './bg2.jpg';
 import bg3 from './EducationPage.jpg';
+import bg4 from './bg4.jpg';
+import bg5 from './bg5.jpg';
+import imp from './imp.jpg';
+import ucl from './ucl.jpg';
+import lgs from './lgs.jpg';
 
 const inlineStyle = {
     background: '#000',
@@ -22,14 +28,12 @@ const inlineStyle = {
 function App() {
     const [isShown, setIsShown] = useState(false);
     const Ref1 = useRef(null);
-
-    const executeScroll = () => Ref1.current.scrollIntoView({behavior:'smooth'});
+    const executeScroll = () => Ref1.current.scrollIntoView({ behavior: 'smooth' });
   return (
       <div className="App">
           <Parallax bgImage={backg} strength={500}>
-              <div style={{height: window.innerHeight, width:window.innerWidth}}>
+              <Tilt options={{max:10,scale:1}} style={{height: window.innerHeight, width:window.innerWidth}}>
                   <img src={nameImage} alt="Sami-Ullah Khan" style={{
-                      background: '#000',
                       width: '60%',
                       height: '60%',
                       left: '40%',
@@ -37,7 +41,7 @@ function App() {
                       position: 'absolute',
                       transform: 'translate(-50%, -50%)'
                   }}></img>
-              </div>
+              </Tilt>
               <p style={{
                   color: '#fff',
                   left: '46.7%',
@@ -62,6 +66,7 @@ function App() {
           <Parallax bgImage={bg2} strength={500}>
               <div style={{ height: window.innerHeight, width: window.innerWidth }} ref={Ref1}>
                   <h1 style={{
+                      backgroundColor:'#000',
                       color: '#fff',
                       left: '50%',
                       top: '10%',
@@ -75,6 +80,7 @@ function App() {
           <Parallax bgImage={bg3} strength={500}>
               <div style={{ height: window.innerHeight, width: window.innerWidth }}>
                   <h1 style={{
+                      backgroundColor: '#000',
                       color: '#fff',
                       left: '50%',
                       top: '5%',
@@ -82,41 +88,92 @@ function App() {
                       transform: 'translate(-50%, -50%)',
                       fontSize: '40px'
                   }}>Education</h1>
-                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth }}>
-                      <h1 style={{
-                          color: '#fff',
-                          left: '50%',
-                          top: '10%',
+                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '15%', position: 'absolute', backgroundImage:`url(${imp})`}}>
+                      <h2 style={{
+                          backgroundColor: '#000',
+                          color:'#fff',
+                          left: '10%',
+                          top: '30%',
                           position: 'absolute',
-                          transform: 'translate(-50%, -50%)',
-                          fontSize: '40px'
-                      }}>Education</h1>
+                          transform: 'translate(-50%, -50%)'
+                      }}>Imperial College London</h2>
+                      <h3 style={{
+                          backgroundColor: '#000',
+                          color: '#fff',
+                          left: '10%',
+                          top: '50%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)'
+                      }}>MSc Computing Science</h3>
                   </div>
-                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth }}>
-                      <h1 style={{
+                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '45%', position: 'absolute', backgroundImage: `url(${ucl})`, backgroundRepeat:'no-repeat' }}>
+                      <h2 style={{
+                          backgroundColor: '#000',
                           color: '#fff',
-                          left: '50%',
-                          top: '40%',
+                          left: '10%',
+                          top: '30%',
                           position: 'absolute',
-                          transform: 'translate(-50%, -50%)',
-                          fontSize: '40px'
-                      }}>Education</h1>
+                          transform: 'translate(-50%, -50%)'
+                      }}>University College London</h2>
+                      <h3 style={{
+                          backgroundColor: '#000',
+                          color: '#fff',
+                          left: '10%',
+                          top: '50%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)'
+                      }}>BSc Mathematics</h3>
                   </div>
-                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth }}>
-                      <h1 style={{
+                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '75%', position: 'absolute', backgroundImage: `url(${lgs})` }}>
+                      <h2 style={{
+                          backgroundColor: '#000',
                           color: '#fff',
-                          left: '50%',
-                          top: '70%',
+                          left: '10%',
+                          top: '30%',
                           position: 'absolute',
-                          transform: 'translate(-50%, -50%)',
-                          fontSize: '40px'
-                      }}>Education</h1>
+                          transform: 'translate(-50%, -50%)'
+                      }}>Langley Grammar School</h2>
+                      <h3 style={{
+                          backgroundColor: '#000',
+                          color: '#fff',
+                          left: '10%',
+                          top: '50%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)'
+                      }}>A-Levels</h3>
                   </div>
               </div>
           </Parallax>
 
+          <Parallax bgImage={bg4} strength={500}>
+              <div style={{ height: window.innerHeight, width: window.innerWidth }}>
+                  <h1 style={{
+                      backgroundColor: '#000',
+                      color: '#fff',
+                      left: '50%',
+                      top: '10%',
+                      position: 'absolute',
+                      transform: 'translate(-50%, -50%)',
+                      fontSize: '40px'
+                  }}>Work Experience</h1>
+              </div>
+          </Parallax>
+
+          <Parallax bgImage={bg5} strength={500}>
+              <div style={{ height: window.innerHeight, width: window.innerWidth }}>
+                  <h1 style={{
+                      backgroundColor: '#000',
+                      color: '#fff',
+                      left: '50%',
+                      top: '10%',
+                      position: 'absolute',
+                      transform: 'translate(-50%, -50%)',
+                      fontSize: '40px'
+                  }}>Personal Projects</h1>
+              </div>
+          </Parallax>
+
           <img src={menuImage} alt="Menu" style={{
-              background: '#000',
               width: '5%',
               height: '8%',
               left: '90%',
