@@ -33,28 +33,27 @@ function App() {
       <div className="App">
           <Parallax bgImage={backg} strength={500}>
               <Tilt options={{max:10,scale:1}} style={{height: window.innerHeight, width:window.innerWidth}}>
-                  <img src={nameImage} alt="Sami-Ullah Khan" style={{
-                      width: '60%',
-                      height: '60%',
+                  <h1 style={{
+                      color: '#fff',
                       left: '40%',
-                      top: '50%',
+                      top: '30%',
                       position: 'absolute',
-                      transform: 'translate(-50%, -50%)'
-                  }}></img>
+                      transform: 'translate(-50%, -50%)',
+                      fontSize: 0.1*window.innerWidth,
+                      textAlign:'left'
+                  }}>Sami-Ullah<br></br>Khan</h1>
               </Tilt>
               <p style={{
                   color: '#fff',
-                  left: '46.7%',
-                  top: '80%',
+                  left: '50% ',
+                  top: '85%',
                   position: 'absolute',
-                  transform: 'translate(-50%, -50%)',
                   fontSize:'29px'
               }}>Scroll</p>
-              <svg height="100" width="200" style={{
+              <svg height={0.1*window.innerHeight} width={0.1*window.innerWidth} style={{
                   left: '50%',
-                  top: '90%',
-                  position: 'absolute',
-                  transform: 'translate(-50%, -50%)'
+                  top: '93%',
+                  position: 'absolute'
               }} onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} onClick={executeScroll}>
                   {!isShown && (<polygon points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 " stroke="white" fill="white" />)}
                   {!isShown && (<polygon points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 " stroke="white" fill="white" />)}
