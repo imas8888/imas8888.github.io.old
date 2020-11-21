@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState, useRef } from 'react';
 import { Parallax } from 'react-parallax';
 import Tilt from 'react-tilt';
-import nameImage from './name.png';
 import menuImage from './menu.png';
 import backg from './Black-Background-Picture.png';
 import bg2 from './bg2.jpg';
@@ -14,31 +12,20 @@ import imp from './imp.jpg';
 import ucl from './ucl.jpg';
 import lgs from './lgs.jpg';
 
-const inlineStyle = {
-    background: '#000',
-    width: '60%',
-    height:'80%',
-    left: '40%',
-    top: '70%',
-    position: 'absolute',
-    padding: '200px',
-    transform: 'translate(-50%, -50%)'
-}
-
 function App() {
     const [isShown, setIsShown] = useState(false);
     const Ref1 = useRef(null);
     const executeScroll = () => Ref1.current.scrollIntoView({ behavior: 'smooth' });
+    const [isOpen, setIsOpen] = useState(false);
   return (
       <div className="App">
           <Parallax bgImage={backg} strength={500}>
               <Tilt options={{max:10,scale:1}} style={{height: window.innerHeight, width:window.innerWidth}}>
                   <h1 style={{
                       color: '#fff',
-                      left: '40%',
-                      top: '30%',
+                      left: '20%',
+                      top: '10%',
                       position: 'absolute',
-                      transform: 'translate(-50%, -50%)',
                       fontSize: 0.1*window.innerWidth,
                       textAlign:'left'
                   }}>Sami-Ullah<br></br>Khan</h1>
@@ -87,7 +74,7 @@ function App() {
                       transform: 'translate(-50%, -50%)',
                       fontSize: '40px'
                   }}>Education</h1>
-                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '15%', position: 'absolute', backgroundImage:`url(${imp})`}}>
+                  <div id="Opac" style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '15%', position: 'absolute', backgroundImage: `url(${imp})`}}>
                       <h2 style={{
                           backgroundColor: '#000',
                           color:'#fff',
@@ -105,7 +92,7 @@ function App() {
                           transform: 'translate(-50%, -50%)'
                       }}>MSc Computing Science</h3>
                   </div>
-                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '45%', position: 'absolute', backgroundImage: `url(${ucl})`, backgroundRepeat:'no-repeat' }}>
+                  <div id="Opac" style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '45%', position: 'absolute', backgroundImage: `url(${ucl})`, backgroundRepeat: 'no-repeat'}}>
                       <h2 style={{
                           backgroundColor: '#000',
                           color: '#fff',
@@ -123,7 +110,7 @@ function App() {
                           transform: 'translate(-50%, -50%)'
                       }}>BSc Mathematics</h3>
                   </div>
-                  <div style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '75%', position: 'absolute', backgroundImage: `url(${lgs})` }}>
+                  <div id="Opac" style={{ height: (window.innerHeight / 4), width: window.innerWidth, top: '75%', position: 'absolute', backgroundImage: `url(${lgs})`}}>
                       <h2 style={{
                           backgroundColor: '#000',
                           color: '#fff',
