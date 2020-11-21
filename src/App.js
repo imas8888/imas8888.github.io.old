@@ -11,6 +11,8 @@ import bg5 from './bg5.jpg';
 import imp from './imp.jpg';
 import ucl from './ucl.jpg';
 import lgs from './lgs.jpg';
+import ebc from './ebc.jpg';
+import db from './db.jpg';
 
 function App() {
     const [isShown, setIsShown] = useState(false);
@@ -137,11 +139,47 @@ function App() {
                       backgroundColor: '#000',
                       color: '#fff',
                       left: '50%',
-                      top: '10%',
+                      top: '5%',
                       position: 'absolute',
                       transform: 'translate(-50%, -50%)',
                       fontSize: '40px'
                   }}>Work Experience</h1>
+                  <div id="Opac" style={{ height: (window.innerHeight / 3), width: window.innerWidth, top: '15%', position: 'absolute', backgroundImage: `url(${ebc})` }}>
+                      <h2 style={{
+                          backgroundColor: '#000',
+                          color: '#fff',
+                          left: '10%',
+                          top: '30%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)'
+                      }}>Sigma Tutors</h2>
+                      <h3 style={{
+                          backgroundColor: '#000',
+                          color: '#fff',
+                          left: '10%',
+                          top: '50%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)'
+                      }}>Co-founder/Head Tutor</h3>
+                  </div>
+                  <div id="Opac" style={{ height: (window.innerHeight / 3), width: window.innerWidth, bottom: '0%', position: 'absolute', backgroundImage: `url(${db})` }}>
+                      <h2 style={{
+                          backgroundColor: '#000',
+                          color: '#fff',
+                          left: '10%',
+                          top: '30%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)'
+                      }}>Deutsche Bank</h2>
+                      <h3 style={{
+                          backgroundColor: '#000',
+                          color: '#fff',
+                          left: '10%',
+                          top: '50%',
+                          position: 'absolute',
+                          transform: 'translate(-50%, -50%)'
+                      }}>Technology Spring Intern</h3>
+                  </div>
               </div>
           </Parallax>
 
@@ -167,7 +205,6 @@ function App() {
               position: 'absolute',
               transform: 'translate(-50%, -50%)'
           }}></img>
-          <div style={{height:'100vh'}}></div>
     </div>
   );
 }
