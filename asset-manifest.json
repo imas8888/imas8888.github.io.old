@@ -1,32 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.d82c793f.chunk.css",
-    "main.js": "/static/js/main.bd9edfea.chunk.js",
-    "main.js.map": "/static/js/main.bd9edfea.chunk.js.map",
+    "main.css": "/static/css/main.58dc5117.chunk.css",
+    "main.js": "/static/js/main.3c03127a.chunk.js",
+    "main.js.map": "/static/js/main.3c03127a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b8dccd35.js",
     "runtime-main.js.map": "/static/js/runtime-main.b8dccd35.js.map",
-    "static/js/2.3d1271a7.chunk.js": "/static/js/2.3d1271a7.chunk.js",
-    "static/js/2.3d1271a7.chunk.js.map": "/static/js/2.3d1271a7.chunk.js.map",
+    "static/js/2.3a21805e.chunk.js": "/static/js/2.3a21805e.chunk.js",
+    "static/js/2.3a21805e.chunk.js.map": "/static/js/2.3a21805e.chunk.js.map",
     "static/js/3.ede04abf.chunk.js": "/static/js/3.ede04abf.chunk.js",
     "static/js/3.ede04abf.chunk.js.map": "/static/js/3.ede04abf.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d82c793f.chunk.css.map": "/static/css/main.d82c793f.chunk.css.map",
-    "static/js/2.3d1271a7.chunk.js.LICENSE.txt": "/static/js/2.3d1271a7.chunk.js.LICENSE.txt",
+    "static/css/main.58dc5117.chunk.css.map": "/static/css/main.58dc5117.chunk.css.map",
+    "static/js/2.3a21805e.chunk.js.LICENSE.txt": "/static/js/2.3a21805e.chunk.js.LICENSE.txt",
     "static/media/Black-Background-Picture.37690f95.png": "/static/media/Black-Background-Picture.37690f95.png",
     "static/media/EducationPage.9db7de9c.jpg": "/static/media/EducationPage.9db7de9c.jpg",
     "static/media/bg2.cf07edf7.jpg": "/static/media/bg2.cf07edf7.jpg",
     "static/media/bg4.1acc56a2.jpg": "/static/media/bg4.1acc56a2.jpg",
     "static/media/bg5.0641057c.jpg": "/static/media/bg5.0641057c.jpg",
-    "static/media/imp.8c51642e.jpg": "/static/media/imp.8c51642e.jpg",
-    "static/media/lgs.c2046107.jpg": "/static/media/lgs.c2046107.jpg",
-    "static/media/logo.103b5fa1.svg": "/static/media/logo.103b5fa1.svg",
-    "static/media/name.e1b113a8.png": "/static/media/name.e1b113a8.png",
-    "static/media/ucl.fd0cb8ea.jpg": "/static/media/ucl.fd0cb8ea.jpg"
+    "static/media/imp.f7e8c2fa.jpg": "/static/media/imp.f7e8c2fa.jpg",
+    "static/media/lgs.b648cefb.jpg": "/static/media/lgs.b648cefb.jpg",
+    "static/media/ucl.5cf3f551.jpg": "/static/media/ucl.5cf3f551.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b8dccd35.js",
-    "static/js/2.3d1271a7.chunk.js",
-    "static/css/main.d82c793f.chunk.css",
-    "static/js/main.bd9edfea.chunk.js"
+    "static/js/2.3a21805e.chunk.js",
+    "static/css/main.58dc5117.chunk.css",
+    "static/js/main.3c03127a.chunk.js"
   ]
 }
